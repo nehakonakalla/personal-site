@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Neha Konakalla</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact</a>
+      </div>
+      <div class="menu-toggle" aria-label="Open Menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-photo-col">
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <img id="hero-photo" class="hero-photo" src="" alt="Profile Photo" style="display:none">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>Hello, I'm Neha!</h1>
+        <p>I build and ship AI features at a fixed price. My focus is computer vision, from visual understanding to generation, with LLMs supporting real-world workflows.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About</h2>
+      <p class="section-subtitle">A quick snapshot of what I do and how I work</p>
+      <div class="content">
+        <div class="card">
+          <h3>What I Do</h3>
+          <ul class="service-list">
+            <li>MVPs -- rapid prototyping to production-ready features</li>
+            <li>Computer vision apps -- detection, tracking, segmentation</li>
+            <li>Diffusion models -- training, fine-tuning, generation</li>
+            <li>LLMs -- agents, RAG, evals, tooling</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Skills</h3>
+          <div class="stack-tags skills-collapsible" id="skills-tags">
+            <span class="tag">Rapid Prototyping</span>
+            <span class="tag">Diffusion Architectures</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Recommendation Systems</span>
+            <span class="tag">Large Language Models</span>
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Elastic Search</span>
+            <span class="tag">Cloud Servers (AWS, Azure, GCP)</span>
+            <span class="tag">iOS Development</span>
+            <span class="tag">Scalable APIs</span>
+            <span class="tag">Parallel Request Processing</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag extra">Tensorflow</span>
+            <span class="tag extra">Python Flask</span>
+            <span class="tag extra">RAG</span>
+            <span class="tag extra">Agents</span>
+          </div>
+          <button type="button" class="skills-toggle" id="skills-toggle" aria-expanded="false">Show more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-subtitle">Selected work across apps, tools, and experiments</p>
+      <div class="projects-grid">
+        <div class="card project-card">
+          <div class="project-title">Pyxer- AI Stylist</div>
+          <ul class="project-points">
+            <li>Led a 7 person team to build a patented, scalable consumer technology solution for 35K+ organic users.</li>
+            <li>Developed and deployed a proprietary visual AI model architecture for virtual try on and fashion photography.</li>
+            <!-- <li>Obtained a patent for a multimodal apparel recommendation algorithm.</li> -->
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Diffusion</span><span class="tag">LLMs</span><span class="tag">Recommender Systems</span>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-title">Konvaid- AI Legal Assistant</div>
+          <div class="project-desc">As a consulting project for Konvaid,Inc, I built personalized on-premise LLMs for the enterprise, from June-October 2025.</div>
+          <div class="project-tags">
+            <span class="tag">LLMs</span><span class="tag">Agents</span>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-title">Stanford Vision and Learning Lab Member</div>
+          <div class="project-desc">Worked on computer vision research- contributed to model development in video-based action anticipation and human-human interaction detection projects.</div>
+          <div class="project-tags">
+            <span class="tag">Vision Architectures</span><span class="tag">Computer Vision</span><span class="tag">Pytorch</span>
+          </div>
+        </div>
+        <!-- Extra tiles appended to the same grid for consistent sizing -->
+        <!-- <div class="card project-card">
+          <div class="project-title">Gridspace- Software Engineer Intern</div>
+          <div class="project-desc">Designed and implemented contextual intent detection AI models to improve healthcare call center dialog agents.</div>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span><span class="tag">Python</span>
+          </div>
+        </div> -->
+        <!-- <div class="card project-card">
+          <div class="project-title">AIBrain- AI Research + Software Engineer Intern</div>
+          <div class="project-desc">AI + NLP Creative Text Generation Research internship to augment conversational experiences in user applications.</div>
+          <div class="project-tags">
+            <span class="tag">LLMs</span><span class="tag">Python</span>
+          </div>
+        </div> -->
+        <!-- Additional rows (placeholders) -->
+        <!-- <div class="card project-card">
+          <div class="project-title">Stanford Open Virtual Assistant Laboratory Member</div>
+          <div class="project-desc">Worked on NLP + deep learning research to improve state-of-the-art general free-text question answering systems on Wikipedia.</div>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+          </div>
+        </div> -->
+        <div class="card project-card">
+          <div class="project-title">Autism BuddyBot</div>
+          <ul class="project-points">
+            <li>Partnered with Stanford Medicine to build BuddyBot, a conversational-based AI companion to improve social communication in individuals with Autism.</li>
+            <!-- <li>Clinical research with Stanford Psychiatry & Behavioral Sciences.</li>
+            <li>Top 30 semifinalist team in the IBM Watson AI XPRIZE.</li> -->
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Conversational AI</span><span class="tag">NLP</span><span class="tag">Gen AI</span>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="project-title">Spanish Accents App</div>
+          <div class="project-desc">Created an iOS app (~3,000 downloads) to help students improve their Spanish grammar skills through speaking, listening, and reading activities</div>
+          <div class="project-tags">
+            <span class="tag">NLP</span><span class="tag">iOS Development</span><span class="tag">IBM Watson</span>
+          </div>
+        </div>
+        <!-- <div class="card project-card">
+          <div class="project-title">Hear2Read- App Volunteer</div>
+          <div class="project-desc">Collaborated with the Hear2Read team and performed integration testing using the Android build process for a text-to-speech app at Carnegie Mellon University.</div>
+          <div class="project-tags">
+            <span class="tag">Android Development</span>
+          </div>
+        </div> -->
+        
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="edu-degree">M.S. in Computer Science</div>
+            <div class="edu-institution">Stanford University</div>
+            <div class="edu-meta">AI Track</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="edu-degree">B.S. in Computer Science</div>
+            <div class="edu-institution">Stanford University</div>
+            <div class="edu-meta">AI Track</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="section-subtitle">Have a project in mind or just want to say hello?</p>
+      <div class="card">
+        <p>Reach me at <a href="mailto:neha@konakalla.com">neha@konakalla.com</a> or connect on <a href="https://www.linkedin.com/in/nehakona" target="_blank" rel="noreferrer noopener">LinkedIn</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
